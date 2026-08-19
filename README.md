@@ -64,6 +64,85 @@ For every task:
 
 Task: [YOUR REQUEST]
 
+## Git Setup & Usage
+
+This section walks through getting the repository onto your machine and how to sync changes with the rest of the group.
+
+### 1. Initial Setup
+
+Install Git on your machine if you don't already have it.
+
+Open Command Prompt (or terminal).
+
+Navigate to your Desktop:
+```
+cd to Desktop
+```
+
+Clone the repository. This downloads a full copy of the project to your machine:
+```
+git clone https://github.com/ajaniciete10-ops/automated-scoring-engine-thesis.git
+```
+
+Once cloning finishes, the project's folder will appear on your Desktop.
+
+Move into the project folder so your commands apply to the repo:
+```
+cd to the folder
+```
+
+### 2. Adding Files to the Repo on Your Machine
+
+Use this when you've created a new file and want to upload it to the shared repository for the first time.
+
+Check what Git sees as changed or new. Confirm the file is listed:
+```
+git status
+```
+
+Stage the file so Git knows to include it in the next commit:
+```
+git add [name of the file]
+```
+
+Commit the staged file with a short message describing what it is/does:
+```
+git commit -m "Commit message"
+```
+
+Push the commit up to the shared repository on GitHub:
+```
+git push origin main
+```
+
+### 3. Editing Existing Files
+
+Use this when you've modified a file that already exists in the repo.
+
+Save your changes in your editor first.
+
+Stage all your changes:
+```
+git add .
+```
+
+Commit with a message describing what you changed:
+```
+git commit -m "Commit message"
+```
+
+Push your changes to the shared repository:
+```
+git push origin main
+```
+
+### 4. Pulling Changes Made by Other Members
+
+Before starting new work — and any time a teammate says they've pushed something — pull the latest version so your local copy stays up to date and you avoid conflicts:
+```
+git pull
+```
+
 ## Full Prompt (Verbatim, No Formatting)
 
 ```
