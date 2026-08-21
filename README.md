@@ -146,6 +146,8 @@ git pull
 ## Full Prompt (Verbatim, No Formatting)
 
 ```
+Clone the repository below:
+
 https://github.com/ajaniciete10-ops/automated-scoring-engine-thesis.git
 
 You are assisting our research group with our thesis project,
