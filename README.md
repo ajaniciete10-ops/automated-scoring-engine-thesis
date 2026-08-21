@@ -1,5 +1,7 @@
 # Automated Essay & Short-Answer Scoring Engine
 
+Clone the repository below:
+
 Repository: [ajaniciete10-ops/automated-scoring-engine-thesis](https://github.com/ajaniciete10-ops/automated-scoring-engine-thesis.git)
 
 ## Introduction
